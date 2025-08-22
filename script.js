@@ -53,5 +53,5 @@ text.addEventListener("click", function () {
 });
 function textChange(){
 	let changeText=document.querySelector(".division")
-	 changeText.innerHTML = "Bye <br>Good&nbspBye<br>To<br>Your<br>Class"
+	 changeText.innerHTML = "Bye"
 }
