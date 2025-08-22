@@ -1,4 +1,4 @@
-let displayResult = document.querySelector("#container");
+let displayResult = document.querySelector("#result");
 let getResult = document.querySelector("#calculate");
 
 getResult.addEventListener("click", function () {
@@ -53,5 +53,5 @@ text.addEventListener("click", function () {
 });
 function textChange(){
 	let changeText=document.querySelector(".division")
-	 changeText.innerHTML = "Bye <br>Good Bye<br>To<br>Your<br>Class"
+	 changeText.innerHTML = "Bye <br>Good&nbspBye<br>To<br>Your<br>Class"
 }
